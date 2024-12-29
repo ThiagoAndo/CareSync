@@ -34,7 +34,8 @@ export const useTesseract = () => {
       setIsRecognizing(false);
     }
   }, []);
-
+  console.log("result");
+  console.log(result);
   return {
     recognize,
     error,
